@@ -1,0 +1,55 @@
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+nav ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+nav ul li a:hover {
+  background-color: #fcfcfc;
+  color: rgb(19, 18, 18);
+}
+nav ul li {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+}
+nav ul li a {
+  text-decoration: none;
+  color: #eee;
+  display: block;
+  padding: 10px;
+  background-color: #393939;
+  text-transform: uppercase;
+  font-weight: 600;
+}
+
+header {
+  background-image: url("https://placehold.it/600");
+  height: 300px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+header h1 {
+  padding: 0;
+  margin: 0;
+}
+
+header h2 {
+  display: none;
+}
+.header-text {
+  position: absolue;
+  bottom: 0;
+  right: 0;
+  padding: 0 30px 20px 0;
+}
